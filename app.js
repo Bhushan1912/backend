@@ -9,6 +9,6 @@ app.use('/api/user',userRouter);
 app.get('/about', (req,res) =>{
     res.send('<h1>Hello i am from your About</h1>');
     });
-app.listen(8080,() =>{
+app.listen(8002,() =>{
     console.log('port is listening on 8080');
 });
